@@ -71,7 +71,7 @@ const ResearchData = () => {
           'Authorization': `Bearer ${authToken}`,
           'Content-Type': 'application/json'       // Set the content type to JSON
         }),
-        body: JSON.stringify(userData),             // Stringify user data to send as JSON
+        body: JSON.stringify(userData),            
       })
         .then(response => response.json())            // Convert the response to JSON
         .then(data => console.log('Success:', data))  // Handle success
