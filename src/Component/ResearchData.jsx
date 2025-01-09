@@ -74,7 +74,7 @@ const ResearchData = () => {
         body: JSON.stringify(userData),            
       })
         .then(response => response.json())            // Convert the response to JSON
-        .then(data => console.log('Success:', data))  // Handle success
+        .then(data => console.log('Success:', data))  
         .catch((error) => console.error('Error:', error));
       toast.success("Data added successfully");
       SetFirstName('');
