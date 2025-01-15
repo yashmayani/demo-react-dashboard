@@ -159,6 +159,36 @@ const Layout = ({ children }) => {
                                 <span className="flex-1 ms-3 whitespace-nowrap">Help</span>
                             </NavLink>
                         </li>
+                        <li>
+                            <NavLink to="/model2" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                <div><TbHelpOctagon size={20} /></div>
+                                <span className="flex-1 ms-3 whitespace-nowrap">Model-2</span>
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/model3" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                <div><TbHelpOctagon size={20} /></div>
+                                <span className="flex-1 ms-3 whitespace-nowrap">Model-3</span>
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/model4" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                <div><TbHelpOctagon size={20} /></div>
+                                <span className="flex-1 ms-3 whitespace-nowrap">Model-4</span>
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/slide1" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                <div><TbHelpOctagon size={20} /></div>
+                                <span className="flex-1 ms-3 whitespace-nowrap">Slide-1</span>
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/slide2" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                <div><TbHelpOctagon size={20} /></div>
+                                <span className="flex-1 ms-3 whitespace-nowrap">Slide-2</span>
+                            </NavLink>
+                        </li>
 
                     </ul>
 

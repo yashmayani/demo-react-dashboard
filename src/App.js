@@ -25,6 +25,11 @@ import 'react-toastify/dist/ReactToastify.css';
 import Login from './Component/Login';
 import Registration from './Component/Registration';
 import Exa from './Component/Exa';
+import Model2 from './Component/Model2';
+import Model3 from './Component/Model3';
+import Model4 from './Component/Model4';
+import Slide1 from './Component/Slide1';
+import Slide2 from './Component/Slide2';
 
 
 
@@ -62,6 +67,11 @@ function App() {
                   <Route path="/reports" element={<Reports />} />
                   <Route path="/setting" element={<Setting />} />
                   <Route path="/help" element={<Help />} />
+                  <Route path="/model2" element={<Model2 />} />
+                  <Route path="/model3" element={<Model3 />} />
+                  <Route path="/model4" element={<Model4 />} />
+                  <Route path="/slide1" element={<Slide1 />} />
+                  <Route path="/slide2" element={<Slide2 />} />
                   <Route path="/model" element={<Model />} />
                   <Route path="/hooks" element={<Hooks />} />
                   <Route path="/exa" element={<Exa />} />
